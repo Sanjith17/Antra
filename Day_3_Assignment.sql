@@ -47,8 +47,26 @@ join dbo.Customers c on o.CustomerID = c.CustomerID
 where c.City <> o.ShipCity
 
 -- Question8
-
+select top 5 ProductName, avg(UnitPrice) Price, (select top 1 City from dbo.Customers c join dbo.Orders o on o.CustomerID = c.CustomerID )
+from dbo.Products
+group by ProductName
 -- Question9
+-- a
+select City from dbo.Employees where City not in (select ShipCity from dbo.Orders)
+-- b 
+select City from dbo.Employees
+EXCEPT
+select ShipCity from dbo.Orders
+
 -- Question10
 
--- Question11
+select top 1 e.City from dbo.Employees e join  dbo.Orders o on e.EmployeeID = o.EmployeeID group by e.EmployeeID, e.City 
+having e.City in (
+select top 1 e.City from dbo.Orders o join dbo.[Order Details] od on o.OrderID = od.OrderID join dbo.Employees e on o.EmployeeID=e.EmployeeID
+ group by e.City, e.EmployeeID order by sum(od.Quantity) desc    
+)order by count(o.OrderID) desc
+
+-- Question11 Find total with count(*) and find unique with count(distinct). Now you will know if there are anty duplicate rows present in the table
+-- Now, if count of a row is greater than 1, then delete the excess of the rows
+
+
