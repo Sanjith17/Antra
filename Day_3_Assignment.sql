@@ -46,10 +46,12 @@ join dbo.[Order Details] od on o.OrderID = od.OrderID
 join dbo.Customers c on o.CustomerID = c.CustomerID
 where c.City <> o.ShipCity
 
--- Question8
-select top 5 ProductName, avg(UnitPrice) Price, (select top 1 City from dbo.Customers c join dbo.Orders o on o.CustomerID = c.CustomerID )
-from dbo.Products
-group by ProductName
+-- Question8 (took reference from solution)
+select top 5 od.ProductID, avg(UnitPrice) AvgPrice, (select top 1 City from dbo.Customers c join dbo.Orders o on o.CustomerID = c.CustomerID  
+                                                        join dbo.[Order Details] od1 on od1.OrderID = o.OrderID where od.ProductID = od1.ProductID 
+                                                        group by City order by sum(Quantity) desc) City
+from dbo.[Order Details] od
+group by od.ProductID
 -- Question9
 -- a
 select City from dbo.Employees where City not in (select ShipCity from dbo.Orders)
