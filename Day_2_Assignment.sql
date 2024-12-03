@@ -105,8 +105,13 @@ where fin.totl >100
 
 
 -- Question23
+select su.CompanyName [Supplier Company Name], sh.CompanyName [Shipping Company Name]
+from dbo.Shippers sh
+cross join dbo.Suppliers su
 
 -- Question24
+
+
 -- Question25
 -- Question26
 
