@@ -13,7 +13,7 @@ SELECT count(ProductID) from Production.Product where ProductSubcategoryID is no
 
 -- Question5
 
-select * from Production.Product
+select ProductID , sum(Quantity) SumOfQuantity from Production.ProductInventory group by ProductID
 
 
 
@@ -110,8 +110,31 @@ from dbo.Shippers sh
 cross join dbo.Suppliers su
 
 -- Question24
-
+select p.ProductName, cast(o.OrderDate as Date)
+from dbo.Orders o
+left join dbo.[Order Details] od on o.OrderID = od.OrderID
+left join dbo.Products p on od.ProductID = p.ProductID  
 
 -- Question25
+select e1.FirstName +e1.LastName as Employee1, e2.FirstName +e2.LastName as Employee1
+from dbo.Employees e1
+join dbo.Employees e2
+on e1.Title = e2.Title and e1.EmployeeID < e2.EmployeeID
+
 -- Question26
+select m.EmployeeID as ManagerID, m.FirstName + m.LastName as ManagerName,
+    COUNT(e.EmployeeID) as NumberOfReports
+from dbo.Employees e
+join  dbo.Employees m
+on  e.ReportsTo = m.EmployeeID
+group by  m.EmployeeID, m.FirstName, m.LastName
+having COUNT(e.EmployeeID) > 2
+order by NumberOfReports DESC;
+
+-- Question27
+select City, CompanyName, ContactName, 'Supplier' as Type1
+from dbo.Suppliers
+union ALL
+select City, CompanyName, ContactName, 'Customer' as Type1
+from dbo.Customers
 
