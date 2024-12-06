@@ -1,0 +1,15 @@
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.deps.json
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.runtimeconfig.json
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.dll
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.pdb
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.AssemblyInfoInputs.cache
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.AssemblyInfo.cs
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.csproj.CoreCompileInputs.cache
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.sourcelink.json
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.dll
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/refint/ConsoleApp2.dll
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.pdb
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.genruntimeconfig.cache
+/Users/sanjith/Documents/Antra/SQL Files/Chash/Day1/ConsoleApp2/ConsoleApp2/obj/Debug/net8.0/ref/ConsoleApp2.dll
