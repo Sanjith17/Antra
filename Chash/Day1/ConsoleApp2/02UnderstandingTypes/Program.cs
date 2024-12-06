@@ -26,5 +26,12 @@ using _02UnderstandingTypes;
 // ToDoList.Run();
 // PrimeNumbers.FindPrimeNumbers(1, 20) Returns array of prime numbers as asked in the assignment
 // Console.WriteLine(PrimeNumbers.FindPrimeNumbers(1, 20));
-ArrayRotation.Run();
+// ArrayRotation.Run();
+// LongestSequence.Run();
+// MostFrequent.Run();
+
 // Practice Strings
+// StringReverse.Run();
+// WordReverse.Run();
+// PalndromeExtractor.Run();
+ServerParser.Run();
