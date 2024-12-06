@@ -1,0 +1,32 @@
+
+1) What type would you choose for the following “numbers”?
+A person’s telephone number  -  String (to cater the '+'and '0')
+A person’s height - FLoat/double
+A person’s age  -- int
+A person’s gender (Male, Female, Prefer Not To Answer) ENum
+A person’s salary - Decimal
+A book’s ISBN - String
+A book’s price  - Decimal
+A book’s shipping weight  -  Float
+A country’s population  -- Long
+The number of stars in the universe  -- BigInteger
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)    Integer
+
+2)
+Both of these are a kind of variables where value variables are stored in the Stack while reference type variables are stored in a heap
+Value type stores the value while reference type stores the address of the value
+Different type of values type variables are: Integer, float, Boolean, Enum
+Different types of reference type variables are String, Array, Class, Interface
+Changing Value type into Reference is called as boxing
+Changing the reference type into Value type is called as boxing
+
+3)
+THe term managed and unmanaged resources denotes two kinds of resources
+The Managed resources are managed automatically by the .NET runtime and Common Language Runtime (like String). These resources area allocated and deallocated by the Garbage Colectors
+The Unmanaged resources are not managed by the >NET runtime or the CLR. THe Garbage Colelctor will not manage the resources.
+
+4)
+The purpose of the Garbage Collector (GC) in .NET is to automatically manage memory by freeing up unused or unreferenced objects from the managed heap, ensuring efficient memory
+utilization and preventing memory leaks. It eliminates the need for developers to manually release memory, reducing programming errors like dangling pointers and memory leaks.
+This removes the resource that is no longer in use. There are three categories 0,1,2 Generations. THe GC moves the objects starting from Generation 0 to 1 to 2 based on their last usage.
