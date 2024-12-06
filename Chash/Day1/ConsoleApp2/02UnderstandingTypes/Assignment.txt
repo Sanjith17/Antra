@@ -1,0 +1,87 @@
+Understanding Data Types
+1) What type would you choose for the following “numbers”?
+A person’s telephone number  -  String (to cater the '+'and '0')
+A person’s height - FLoat/double
+A person’s age  -- int
+A person’s gender (Male, Female, Prefer Not To Answer) ENum
+A person’s salary - Decimal
+A book’s ISBN - String
+A book’s price  - Decimal
+A book’s shipping weight  -  Float
+A country’s population  -- Long
+The number of stars in the universe  -- BigInteger
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)    Integer
+
+2)
+Both of these are a kind of variables where value variables are stored in the Stack while reference type variables are stored in a heap
+Value type stores the value while reference type stores the address of the value
+Different type of values type variables are: Integer, float, Boolean, Enum
+Different types of reference type variables are String, Array, Class, Interface
+Changing Value type into Reference is called as boxing
+Changing the reference type into Value type is called as boxing
+
+3)
+THe term managed and unmanaged resources denotes two kinds of resources
+The Managed resources are managed automatically by the .NET runtime and Common Language Runtime (like String). These resources area allocated and deallocated by the Garbage Colectors
+The Unmanaged resources are not managed by the >NET runtime or the CLR. THe Garbage Colelctor will not manage the resources.
+
+4)
+The purpose of the Garbage Collector (GC) in .NET is to automatically manage memory by freeing up unused or unreferenced objects from the managed heap, ensuring efficient memory
+utilization and preventing memory leaks. It eliminates the need for developers to manually release memory, reducing programming errors like dangling pointers and memory leaks.
+This removes the resource that is no longer in use. There are three categories 0,1,2 Generations. THe GC moves the objects starting from Generation 0 to 1 to 2 based on their last usage.
+
+
+Controlling Flow and Converting Types:
+1)
+Dividing an int by 0 throws a System.DivideByZeroException at runtime. This is because division by zero is undefined in integer arithmetic.
+2)
+Dividing a double by 0 results in Infinity or -Infinity, and dividing 0 by 0 gives NaN
+3)
+The value wraps around to the minimum or maximum value of int unless the checked keyword is used, which will throw an OverflowException.
+
+4)
+x = y++; assigns the current value of y to x and then increments y. x = ++y; increments y first and then assigns the incremented value to x.
+
+5)
+break exits the loop entirely, continue skips the remaining code in the current iteration and moves to the next iteration, and return exits the loop and the method.
+
+6)
+The three parts are initialization, condition, and iteration. None of these are strictly required, but a terminating condition must eventually stop the loop.
+
+
+
+7)
+= is the assignment operator, used to assign a value to a variable. == is the equality operator, used to compare two values for equality.
+
+8)
+Yes, it compiles and creates an infinite loop because the condition true always evaluates to true.
+
+9)
+The underscore _ acts as a wildcard pattern or a default case, matching any value not handled by other cases.
+
+10)
+An object must implement the IEnumerable or IEnumerable<T> interface to be used in a foreach loop.
+
+
+Arrays and Strings:
+1)
+Use String for immutable strings or when performing few modifications. Use StringBuilder for frequent or large string manipulations to improve performance
+and reduce memory overhead.
+
+2)
+The base class for all arrays in C# is System.Array, which provides methods and properties for array manipulation.
+
+3)
+Use Array.Sort(array) to sort an array in ascending order. You can also use a custom comparer or LINQ for more advanced sorting.
+
+4)
+We can use the Length property of the array object to get the total number of elements in the array.
+
+5)
+Yes, we can store multiple data types in a single System.Array by declaring it as object[], but this is generally not recommended for type safety.
+
+6)
+CopyTo() copies elements to an existing array starting at a specified index, while Clone() creates a shallow copy of the entire array and returns a new array instance.
+
+
