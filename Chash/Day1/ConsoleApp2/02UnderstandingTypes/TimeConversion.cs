@@ -2,7 +2,7 @@ namespace _02UnderstandingTypes;
 
 public class TimeConversion
 {
-    public static void Main()
+    public static void Run()
     {
         Console.Write("Enter the number of centuries: ");
             
