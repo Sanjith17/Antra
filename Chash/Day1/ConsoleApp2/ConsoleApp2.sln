@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{FDAE1098-7467-4305-941A-849E224D8CFE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02UnderstandingTypes", "02UnderstandingTypes\02UnderstandingTypes.csproj", "{CCDB1BCE-938B-421C-97E6-50891910EF61}"
 EndProject
 Global
@@ -10,10 +8,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FDAE1098-7467-4305-941A-849E224D8CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDAE1098-7467-4305-941A-849E224D8CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDAE1098-7467-4305-941A-849E224D8CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDAE1098-7467-4305-941A-849E224D8CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CCDB1BCE-938B-421C-97E6-50891910EF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCDB1BCE-938B-421C-97E6-50891910EF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCDB1BCE-938B-421C-97E6-50891910EF61}.Release|Any CPU.ActiveCfg = Release|Any CPU

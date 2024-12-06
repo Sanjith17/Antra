@@ -14,4 +14,5 @@ Console.WriteLine($"type = float, size={ sizeof(float) }, minValue = { float.Min
 Console.WriteLine($"type = double, size={ sizeof(double) }, minValue = { double.MinValue }, MaxValue = {double.MaxValue }");
 Console.WriteLine($"type = decimal, size={ sizeof(decimal) }, minValue = { decimal.MinValue }, MaxValue = {decimal.MaxValue }");
 
-TimeConversion.Main();
+// TimeConversion.Main();
+// FizzWord.Run();
